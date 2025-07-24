@@ -1,0 +1,3 @@
+# Este arquivo mantém o diretório no controle de versão
+# Os arquivos de áudio (.wav, .mp3, etc.) são ignorados pelo .gitignore
+# mas a estrutura de diretórios é preservada para o funcionamento do scraper

@@ -1,0 +1,49 @@
+# ==============================================================================
+# TCC - Geração Automatizada de Atas de Reunião com IA
+# Requirements file - Dependências do projeto
+# ==============================================================================
+
+# YouTube Download e processamento de vídeo/áudio
+yt-dlp>=2023.12.30          # Download de vídeos/áudios do YouTube
+ffmpeg-python>=0.2.0        # Bindings Python para FFmpeg (processamento de áudio)
+
+# Processamento de dados e utilitários
+requests>=2.31.0            # HTTP requests
+urllib3>=2.0.7              # HTTP client 
+pathlib2>=2.3.7             # Manipulação de paths (compatibility)
+
+# Análise e processamento de texto (futura implementação)
+# numpy>=1.24.0             # Operações numéricas
+# pandas>=2.0.0             # Manipulação de dados
+# scikit-learn>=1.3.0       # Machine learning
+
+# Processamento de áudio (futura implementação) 
+# librosa>=0.10.0           # Análise de áudio
+# soundfile>=0.12.0         # I/O de arquivos de áudio
+# pydub>=0.25.0             # Manipulação de áudio
+
+# Transcrição de áudio (futura implementação)
+# openai-whisper>=20231117  # Whisper da OpenAI
+# faster-whisper>=0.9.0     # Implementação otimizada do Whisper
+
+# NLP e modelos de linguagem (futura implementação)
+# transformers>=4.35.0      # Hugging Face Transformers
+# torch>=2.1.0              # PyTorch
+# spacy>=3.7.0              # Processamento de linguagem natural
+# nltk>=3.8.0               # Natural Language Toolkit
+
+# Web framework para API (futura implementação)
+# fastapi>=0.104.0          # Web framework assíncrono
+# uvicorn>=0.24.0           # ASGI server
+# pydantic>=2.5.0           # Validação de dados
+
+# Desenvolvimento e testes
+# pytest>=7.4.0            # Framework de testes
+# black>=23.11.0            # Code formatter
+# flake8>=6.1.0             # Linter
+# jupyter>=1.0.0            # Jupyter notebooks
+
+# Nota: FFmpeg deve ser instalado separadamente no sistema
+# Windows: winget install FFmpeg
+# Linux: sudo apt install ffmpeg
+# macOS: brew install ffmpeg

@@ -1,0 +1,135 @@
+# ==============================================================================
+# TCC - Geração Automatizada de Atas de Reunião com IA
+# .gitignore - Arquivos a serem ignorados no versionamento
+# ==============================================================================
+
+# Dados brutos e processados (arquivos grandes)
+data/raw/audio/**/*.wav
+data/raw/audio/**/*.mp3
+data/raw/audio/**/*.m4a
+data/processed/**/*
+data/transcricoes/**/*
+data/atas-geradas/**/*
+
+# Manter estrutura de diretórios mas ignorar conteúdo
+!data/raw/audio/.gitkeep
+!data/processed/.gitkeep
+!data/transcricoes/.gitkeep
+!data/atas-geradas/.gitkeep
+
+# Metadados podem ser versionados (são pequenos)
+# !data/raw/audio/metadata.json
+
+# Modelos de IA (arquivos grandes)
+models/**/*.bin
+models/**/*.pt
+models/**/*.h5
+models/**/*.onnx
+models/**/*.safetensors
+models/**/*.model
+
+# Logs
+*.log
+logs/
+scraper.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# API keys e configurações sensíveis
+.env
+config.ini
+secrets.json
+*.key
+*.pem
+
+# Cache e arquivos temporários do sistema
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Documentos compilados
+docs/_build/
+docs/build/
+*.pdf
+*.docx
+*.tex.aux
+*.tex.bbl
+*.tex.blg
+*.tex.fdb_latexmk
+*.tex.fls
+*.tex.log
+*.tex.out
+*.tex.synctex.gz
+
+# Arquivos específicos do projeto
+evaluation/results/**/*
+!evaluation/results/.gitkeep
+
+# FFmpeg temporários
+ffmpeg2pass-*
+*.ffindex
+
+# YouTube-dl/yt-dlp cache
+youtube-dl-*
+yt-dlp-*

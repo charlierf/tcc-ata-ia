@@ -1,0 +1,285 @@
+{
+  "downloads": [
+    {
+      "video_id": "lpy2xwAOYfY",
+      "title": "Sala dos Conselhos | 21/07/2025 | Sessão CONEPE | #63",
+      "output_path": "data\\raw\\audio\\conepe\\2025-07-21_conepe_#63.wav",
+      "download_date": "2025-07-24T13:21:35.101133",
+      "conselho": "conepe",
+      "data_reuniao": "21/07/2025",
+      "numero_sessao": "63",
+      "file_size_mb": 198.2
+    },
+    {
+      "video_id": "z9OugiYG1Qg",
+      "title": "Sala dos Conselhos | 30/06/2025 | Sessão CONSU | #63",
+      "output_path": "data\\raw\\audio\\consu\\2025-06-30_consu_#63.wav",
+      "download_date": "2025-07-24T13:23:31.827439",
+      "conselho": "consu",
+      "data_reuniao": "30/06/2025",
+      "numero_sessao": "63",
+      "file_size_mb": 327.2
+    },
+    {
+      "video_id": "qc-MmIcW0Hg",
+      "title": "Sala dos Conselhos | 30/05/2025 | Sessão CONSU | #62",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2025-05-30_consu_#62.wav",
+      "download_date": "2025-07-24T14:20:51.812645",
+      "conselho": "consu",
+      "data_reuniao": "30/05/2025",
+      "numero_sessao": "62",
+      "file_size_mb": 274.7
+    },
+    {
+      "video_id": "GEdzjoQyNBU",
+      "title": "Sala dos Conselhos | 30/05/2025 | Sessão CONSU | #61",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2025-05-30_consu_#61.wav",
+      "download_date": "2025-07-24T14:22:39.782464",
+      "conselho": "consu",
+      "data_reuniao": "30/05/2025",
+      "numero_sessao": "61",
+      "file_size_mb": 438.1
+    },
+    {
+      "video_id": "Zi4aiqEFmwc",
+      "title": "Sala dos Conselhos | 26/05/2025 | Sessão CONEPE | #62",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2025-05-26_conepe_#62.wav",
+      "download_date": "2025-07-24T14:23:13.583808",
+      "conselho": "conepe",
+      "data_reuniao": "26/05/2025",
+      "numero_sessao": "62",
+      "file_size_mb": 143.8
+    },
+    {
+      "video_id": "3jPtGmegP04",
+      "title": "Sala dos Conselhos | 14/04/2025 | Sessão CONEPE | #61",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2025-04-14_conepe_#61.wav",
+      "download_date": "2025-07-24T14:24:05.105087",
+      "conselho": "conepe",
+      "data_reuniao": "14/04/2025",
+      "numero_sessao": "61",
+      "file_size_mb": 285.2
+    },
+    {
+      "video_id": "joiIcoD5-N8",
+      "title": "Sala dos Conselhos | 11/04/2025 | Sessão  Ordinária e Extraordinária CONSU | #60",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2025-07-24_consu_#000.wav",
+      "download_date": "2025-07-24T14:25:34.793098",
+      "conselho": "consu",
+      "data_reuniao": "24/07/2025",
+      "numero_sessao": "000",
+      "file_size_mb": 458.8
+    },
+    {
+      "video_id": "tzMPK_G4LjE",
+      "title": "Sala dos Conselhos | 28/03/2025 | Sessão CONEPE | #60",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2025-03-28_conepe_#60.wav",
+      "download_date": "2025-07-24T14:26:04.782859",
+      "conselho": "conepe",
+      "data_reuniao": "28/03/2025",
+      "numero_sessao": "60",
+      "file_size_mb": 119.5
+    },
+    {
+      "video_id": "eL3ewR6pZuE",
+      "title": "Sala dos Conselhos | 10/03/2025 | Sessão CONSU | #59",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2025-03-10_consu_#59.wav",
+      "download_date": "2025-07-24T14:27:33.205542",
+      "conselho": "consu",
+      "data_reuniao": "10/03/2025",
+      "numero_sessao": "59",
+      "file_size_mb": 496.4
+    },
+    {
+      "video_id": "HRJ9N5LCHW8",
+      "title": "Sala dos Conselhos | 27/01/2025 | Sessão CONEPE | #59",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2025-01-27_conepe_#59.wav",
+      "download_date": "2025-07-24T14:28:11.887654",
+      "conselho": "conepe",
+      "data_reuniao": "27/01/2025",
+      "numero_sessao": "59",
+      "file_size_mb": 141.1
+    },
+    {
+      "video_id": "0gFh7OD9XxE",
+      "title": "Sala dos Conselhos | 04/12/2024 | Sessão CONSU | #58",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-12-04_consu_#58.wav",
+      "download_date": "2025-07-24T14:29:26.396233",
+      "conselho": "consu",
+      "data_reuniao": "04/12/2024",
+      "numero_sessao": "58",
+      "file_size_mb": 388.5
+    },
+    {
+      "video_id": "5XnZdTQXHBg",
+      "title": "Sala dos Conselhos | 29/11/2024 | Sessão CONEPE | #58",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-11-29_conepe_#58.wav",
+      "download_date": "2025-07-24T14:30:06.813909",
+      "conselho": "conepe",
+      "data_reuniao": "29/11/2024",
+      "numero_sessao": "58",
+      "file_size_mb": 128.0
+    },
+    {
+      "video_id": "fLViliCwbHQ",
+      "title": "Sala dos Conselhos | 25/10/2024 | Sessão CONEPE | #57",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-10-25_conepe_#57.wav",
+      "download_date": "2025-07-24T14:31:38.746769",
+      "conselho": "conepe",
+      "data_reuniao": "25/10/2024",
+      "numero_sessao": "57",
+      "file_size_mb": 479.0
+    },
+    {
+      "video_id": "_lXxkn2La8o",
+      "title": "Sala dos Conselhos | 22/10/2024 | Sessão CONSU | #58",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-10-22_consu_#58.wav",
+      "download_date": "2025-07-24T14:32:48.266050",
+      "conselho": "consu",
+      "data_reuniao": "22/10/2024",
+      "numero_sessao": "58",
+      "file_size_mb": 240.8
+    },
+    {
+      "video_id": "7g8p-n1eUYc",
+      "title": "Sala dos Conselhos | 23/09/2024 | Sessão CONSU | #57",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-09-23_consu_#57.wav",
+      "download_date": "2025-07-24T14:34:33.988216",
+      "conselho": "consu",
+      "data_reuniao": "23/09/2024",
+      "numero_sessao": "57",
+      "file_size_mb": 349.6
+    },
+    {
+      "video_id": "xbDz2i0cToc",
+      "title": "Sala dos Conselhos | 30/08/2024 | Sessão CONEPE | #56",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-08-30_conepe_#56.wav",
+      "download_date": "2025-07-24T14:36:25.829562",
+      "conselho": "conepe",
+      "data_reuniao": "30/08/2024",
+      "numero_sessao": "56",
+      "file_size_mb": 306.9
+    },
+    {
+      "video_id": "-StMc5sZtNA",
+      "title": "Sala dos Conselhos | 26/08/2024 | Sessão CONSU | #56",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-08-26_consu_#56.wav",
+      "download_date": "2025-07-24T14:38:14.772656",
+      "conselho": "consu",
+      "data_reuniao": "26/08/2024",
+      "numero_sessao": "56",
+      "file_size_mb": 511.5
+    },
+    {
+      "video_id": "rd-1sKDc9jI",
+      "title": "Sala dos Conselhos | 19/08/2024 | Sessão CONSU | #57",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-08-19_consu_#57.wav",
+      "download_date": "2025-07-24T14:38:56.024313",
+      "conselho": "consu",
+      "data_reuniao": "19/08/2024",
+      "numero_sessao": "57",
+      "file_size_mb": 145.5
+    },
+    {
+      "video_id": "a3mW3VaqJVc",
+      "title": "Sala dos Conselhos | 26/07/2024 | Sessão CONSU | #55",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-07-26_consu_#55.wav",
+      "download_date": "2025-07-24T14:39:26.449292",
+      "conselho": "consu",
+      "data_reuniao": "26/07/2024",
+      "numero_sessao": "55",
+      "file_size_mb": 115.2
+    },
+    {
+      "video_id": "-DO-am2v114",
+      "title": "Sala dos Conselhos | 22/07/2024 | Sessão CONEPE | #55",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-07-22_conepe_#55.wav",
+      "download_date": "2025-07-24T14:40:15.116515",
+      "conselho": "conepe",
+      "data_reuniao": "22/07/2024",
+      "numero_sessao": "55",
+      "file_size_mb": 209.3
+    },
+    {
+      "video_id": "F32_XEHOxF0",
+      "title": "Sala dos Conselhos | 28/02/2023 | Sessão CONSU | #16",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2023-02-28_consu_#16.wav",
+      "download_date": "2025-07-24T14:40:31.822009",
+      "conselho": "consu",
+      "data_reuniao": "28/02/2023",
+      "numero_sessao": "16",
+      "file_size_mb": 209.4
+    },
+    {
+      "video_id": "epYzjusRUA0",
+      "title": "Sala dos Conselhos | 24/05/2024 | Sessão CONEPE | #54",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-05-24_conepe_#54.wav",
+      "download_date": "2025-07-24T14:40:51.016841",
+      "conselho": "conepe",
+      "data_reuniao": "24/05/2024",
+      "numero_sessao": "54",
+      "file_size_mb": 99.2
+    },
+    {
+      "video_id": "-wVBvBDp5Ns",
+      "title": "Sala dos Conselhos | 22/03/2024 | Sessão CONSU | #54",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-03-22_consu_#54.wav",
+      "download_date": "2025-07-24T14:41:24.672363",
+      "conselho": "consu",
+      "data_reuniao": "22/03/2024",
+      "numero_sessao": "54",
+      "file_size_mb": 169.7
+    },
+    {
+      "video_id": "-NjlH5jpOoU",
+      "title": "Sala dos Conselhos | 29/02/2024 | Sessão CONEPE | #53",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-02-29_conepe_#53.wav",
+      "download_date": "2025-07-24T14:43:02.373232",
+      "conselho": "conepe",
+      "data_reuniao": "29/02/2024",
+      "numero_sessao": "53",
+      "file_size_mb": 411.1
+    },
+    {
+      "video_id": "ueOWu6_1pV0",
+      "title": "Sala dos Conselhos | 26/02/2024 | Sessão CONSU | #53",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2024-02-26_consu_#53.wav",
+      "download_date": "2025-07-24T14:44:52.696354",
+      "conselho": "consu",
+      "data_reuniao": "26/02/2024",
+      "numero_sessao": "53",
+      "file_size_mb": 409.5
+    },
+    {
+      "video_id": "VFUhfPb3d3A",
+      "title": "Sala dos Conselhos | 22/01/2024 | Sessão CONEPE | #52",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2024-01-22_conepe_#52.wav",
+      "download_date": "2025-07-24T14:45:30.349360",
+      "conselho": "conepe",
+      "data_reuniao": "22/01/2024",
+      "numero_sessao": "52",
+      "file_size_mb": 273.4
+    },
+    {
+      "video_id": "AKMikgwf4Qs",
+      "title": "Sala dos Conselhos | 20/12/2023 | Sessão CONEPE | #51",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\conepe\\2023-12-20_conepe_#51.wav",
+      "download_date": "2025-07-24T14:46:08.214912",
+      "conselho": "conepe",
+      "data_reuniao": "20/12/2023",
+      "numero_sessao": "51",
+      "file_size_mb": 98.8
+    },
+    {
+      "video_id": "39Mo0xd9tLE",
+      "title": "Sala dos Conselhos | 18/12/2023 | Sessão CONSU | #52",
+      "output_path": "D:\\GitHub Projects\\tcc-ata-ia\\data\\raw\\audio\\consu\\2023-12-18_consu_#52.wav",
+      "download_date": "2025-07-24T14:47:46.173291",
+      "conselho": "consu",
+      "data_reuniao": "18/12/2023",
+      "numero_sessao": "52",
+      "file_size_mb": 356.2
+    }
+  ],
+  "last_update": "2025-07-24T14:47:46.173291"
+}

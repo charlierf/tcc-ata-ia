@@ -46,7 +46,56 @@ tcc-ata-ia/
 
 ## 🧪 Base de Dados
 
-As gravações utilizadas são reuniões reais dos Conselhos Superiores da UFS (CONSU e Conepe), extraídas de fontes públicas, e servirão como **material de teste, validação e avaliação da solução desenvolvida**.
+As gravações utilizadas são reuniões reais dos Conselhos Superiores da UFS (CONSU e Conepe), extraídas de fontes públicas do [canal da TV UFS no YouTube](https://www.youtube.com/@TVUFS/streams), e servirão como **material de teste, validação e avaliação da solução desenvolvida**.
+
+### 📥 Coleta Automatizada de Dados
+
+O projeto inclui um **scraper automatizado** que baixa os áudios das reuniões diretamente do YouTube:
+
+- **Fonte:** Canal TV UFS - Transmissões ao vivo das reuniões
+- **Padrão de títulos:** `"Sala dos Conselhos | DD/MM/AAAA | Sessão CONSELHO | #XX"`
+- **Formato de saída:** WAV, 16kHz, Mono (otimizado para transcrição)
+- **Organização:** Arquivos categorizados por conselho e data
+
+#### 🚀 Como usar o scraper:
+
+**📖 Primeiro:** Siga o [Guia de Instalação](INSTALACAO.md) para configurar o ambiente virtual e dependências.
+
+```bash
+# 1. Configurar ambiente virtual (primeira vez)
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+
+# 2. Verificar instalação
+python src/setup.py
+
+# 3. Teste básico (sem downloads)
+python src/run_scraper.py --test
+
+# 4. Download de teste
+python src/run_scraper.py --download-limit 1
+
+# 5. Execução completa
+python src/run_scraper.py
+
+# 6. Ver estatísticas
+python src/run_scraper.py --stats
+```
+```
+
+#### 📊 Estrutura dos dados coletados:
+
+```
+data/raw/audio/
+├── consu/                    ← Reuniões do CONSU
+│   ├── 2025-07-21_consu_#63.wav
+│   └── 2025-06-30_consu_#62.wav
+├── conepe/                   ← Reuniões do CONEPE  
+│   ├── 2025-07-21_conepe_#63.wav
+│   └── 2025-06-15_conepe_#62.wav
+└── metadata.json             ← Metadados dos downloads
+```
 
 ---
 
@@ -56,6 +105,24 @@ O desenvolvimento está dividido em duas etapas:
 
 * **TCC1:** Revisão sistemática, proposta de arquitetura, definição de escopo e tecnologias.
 * **TCC2:** Desenvolvimento do sistema, testes, avaliação de resultados e escrita final da monografia.
+
+### 📚 Fundamentação Científica
+
+O projeto mantém uma base sólida de **artigos científicos** para fundamentar todas as decisões técnicas:
+
+```bash
+# Gerenciar artigos científicos
+python src/utils/article_manager.py setup    # Configurar estrutura
+python src/utils/article_manager.py list     # Listar artigos prioritários
+python src/utils/article_manager.py search whisper  # Buscar artigo específico
+```
+
+**Artigos prioritários:**
+- **Whisper (Radford et al., 2022)** - Fundamenta configurações de áudio 16kHz
+- **BERTimbau (Souza et al., 2020)** - NLP em português brasileiro
+- **ROUGE (Lin, 2004)** - Métricas de avaliação para sumarização
+
+📁 **Localização:** `docs/referencias/` - Artigos organizados por categoria (ASR, NLP, Evaluation)
 
 ---
 
