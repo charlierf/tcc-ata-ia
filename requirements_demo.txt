@@ -1,0 +1,96 @@
+# ==============================================================================
+# TCC - Geração Automatizada de Atas de Reunião com IA
+# Requirements file - Dependências do projeto
+# ==============================================================================
+
+# Dependências base do projeto
+yt-dlp>=2023.12.30          # Download de vídeos/áudios do YouTube
+ffmpeg-python>=0.2.0        # Bindings Python para FFmpeg (processamento de áudio)
+requests>=2.31.0            # HTTP requests
+urllib3>=2.0.7              # HTTP client 
+pathlib2>=2.3.7             # Manipulação de paths (compatibility)
+
+# ==============================================================================
+# DEPENDÊNCIAS DA DEMONSTRAÇÃO INTERATIVA
+# ==============================================================================
+
+# Interface web
+gradio>=3.50.0              # Interface web interativa para demos de ML
+
+# IA e Machine Learning
+openai>=1.3.0               # Cliente oficial da OpenAI para GPT
+torch>=2.0.0                # PyTorch para modelos de IA
+torchvision>=0.15.0         # Visão computacional com PyTorch  
+torchaudio>=2.0.0           # Processamento de áudio com PyTorch
+
+# Processamento de áudio e transcrição
+git+https://github.com/openai/whisper.git  # Whisper da OpenAI para transcrição
+pyannote.audio>=3.1.0       # Diarização de speakers (separação de vozes)
+pydub>=0.25.0               # Manipulação de arquivos de áudio
+librosa>=0.10.0             # Análise de sinais de áudio
+soundfile>=0.12.0           # Leitura/escrita de arquivos de áudio
+
+# Processamento de dados
+numpy>=1.24.0               # Computação numérica
+pandas>=2.0.0               # Manipulação e análise de dados
+datasets>=2.14.0            # Datasets para ML (Hugging Face)
+
+# NLP e modelos de linguagem
+transformers>=4.35.0        # Biblioteca Hugging Face para modelos
+huggingface-hub>=0.17.0     # Hub de modelos da Hugging Face
+tokenizers>=0.14.0          # Tokenização eficiente
+
+# Utilitários adicionais
+python-dotenv>=1.0.0        # Carregamento de variáveis de ambiente
+tqdm>=4.66.0                # Barras de progresso
+colorama>=0.4.6             # Cores no terminal (Windows)
+packaging>=23.0             # Utilitários de empacotamento
+
+# ==============================================================================
+# DEPENDÊNCIAS OPCIONAIS PARA DESENVOLVIMENTO
+# ==============================================================================
+
+# Desenvolvimento e testes (descomente se necessário)
+# pytest>=7.4.0            # Framework de testes
+# black>=23.11.0            # Formatador de código
+# flake8>=6.1.0             # Linter
+# jupyter>=1.0.0            # Jupyter notebooks
+# ipykernel>=6.25.0         # Kernel Python para Jupyter
+
+# Análise e visualização (descomente se necessário)
+# matplotlib>=3.7.0        # Gráficos e visualizações
+# seaborn>=0.12.0          # Visualizações estatísticas
+# plotly>=5.17.0           # Gráficos interativos
+
+# ==============================================================================
+# NOTAS DE INSTALAÇÃO
+# ==============================================================================
+
+# PASSO 1: Instalar FFmpeg no sistema
+# Windows: winget install FFmpeg
+# Linux: sudo apt install ffmpeg
+# macOS: brew install ffmpeg
+
+# PASSO 2: Instalar dependências Python
+# pip install -r requirements.txt
+
+# PASSO 3: Configurar APIs
+# OpenAI: https://platform.openai.com/api-keys
+# Hugging Face: https://huggingface.co/pyannote/speaker-diarization
+
+# PASSO 4: Executar a demonstração
+# python tools/ata_demo.py --api-key "sua-chave-openai"
+
+# ==============================================================================
+# ALTERNATIVAS DE INSTALAÇÃO
+# ==============================================================================
+
+# Para instalação rápida apenas da demo:
+# pip install gradio openai torch pyannote.audio pydub
+# pip install git+https://github.com/openai/whisper.git
+
+# Para usar CPU apenas (sem GPU):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# Para usar GPU NVIDIA (CUDA 11.8):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
